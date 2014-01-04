@@ -1,0 +1,5 @@
+debian/*
+tags
+.git*
+.old
+.bak
