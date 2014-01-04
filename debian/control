@@ -2,15 +2,19 @@ Source: libtest-package-perl
 Section: perl
 Priority: optional
 Maintainer: Wesley Schwengle <wesleys@>
-Build-Depends: debhelper (>= 8)
+Build-Depends: debhelper (>= 8),
+    perl-modules (>= 5.14.2),
+    libtest-compile-perl (>= 0.13),
+    libtest-pod-coverage-perl (>= 1.08),
+    libtest-pod-perl (>=1.44)
 Build-Depends-Indep: perl
 Standards-Version: 3.9.2
-Homepage: http://search.cpan.org/dist/Test-Package/
+Homepage: http://blog.opperschaap.net
 
 Package: libtest-package-perl
 Architecture: all
 Depends: ${misc:Depends}, ${perl:Depends}
-Description: (no short description found)
- (no description was found)
+Description: Test::Package
+ Test suite to test perl source files
  .
- This description was automagically extracted from the module by dh-make-perl.
+ Test suite for perl projects, tests several things in one
