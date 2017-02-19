@@ -1,0 +1,12 @@
+blib
+dist\.ini
+Makefile$
+Makefile.old
+MYMETA\..+
+META\..*
+tags
+weaver\.ini
+\.git
+\.build
+\.cpanfile
+cover_db/

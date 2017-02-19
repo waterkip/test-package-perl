@@ -1,0 +1,10 @@
+lib/Test/Package.pm
+LICENSE
+Makefile.PL
+MANIFEST			This list of files
+MANIFEST.SKIP
+t/000-package.t
+t/010-skip.t
+t/100-empty-paths.t
+t/120-scripts-pod.t
+t/bin/foo.pl
